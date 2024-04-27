@@ -1,0 +1,526 @@
+Reading from Cache - Addr: 00000020, Tag: 0, Set: 1, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 1, Expected Tag: 0
+Cache Miss for Addr: 00000020
+Loading PTE - Page Number: 8, PTE Address: 00000020, PTE Data: 103
+Extracted PTE - Physical Page Number: 39, Valid: 1
+Updated TLB - Index: 0, Physical Page Number: 39, Valid: 1
+Reading from Cache - Addr: 00000024, Tag: 0, Set: 1, Offset: 4
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 9, PTE Address: 00000024, PTE Data: 102
+Extracted PTE - Physical Page Number: 38, Valid: 1
+Updated TLB - Index: 1, Physical Page Number: 38, Valid: 1
+Reading from Cache - Addr: 00000028, Tag: 0, Set: 1, Offset: 8
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 10, PTE Address: 00000028, PTE Data: 101
+Extracted PTE - Physical Page Number: 37, Valid: 1
+Updated TLB - Index: 0, Physical Page Number: 37, Valid: 1
+Reading from Cache - Addr: 0000002C, Tag: 0, Set: 1, Offset: 12
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 11, PTE Address: 0000002C, PTE Data: 100
+Extracted PTE - Physical Page Number: 36, Valid: 1
+Updated TLB - Index: 1, Physical Page Number: 36, Valid: 1
+Reading from Cache - Addr: 00000030, Tag: 0, Set: 1, Offset: 16
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 12, PTE Address: 00000030, PTE Data: 99
+Extracted PTE - Physical Page Number: 35, Valid: 1
+Updated TLB - Index: 0, Physical Page Number: 35, Valid: 1
+Reading from Cache - Addr: 00000034, Tag: 0, Set: 1, Offset: 20
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 13, PTE Address: 00000034, PTE Data: 98
+Extracted PTE - Physical Page Number: 34, Valid: 1
+Updated TLB - Index: 1, Physical Page Number: 34, Valid: 1
+Reading from Cache - Addr: 00000038, Tag: 0, Set: 1, Offset: 24
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 14, PTE Address: 00000038, PTE Data: 97
+Extracted PTE - Physical Page Number: 33, Valid: 1
+Updated TLB - Index: 0, Physical Page Number: 33, Valid: 1
+Reading from Cache - Addr: 0000003C, Tag: 0, Set: 1, Offset: 28
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 15, PTE Address: 0000003C, PTE Data: 96
+Extracted PTE - Physical Page Number: 32, Valid: 1
+Updated TLB - Index: 1, Physical Page Number: 32, Valid: 1
+Reading from Cache - Addr: 00000040, Tag: 0, Set: 2, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 1, Expected Tag: 0
+Cache Miss for Addr: 00000040
+Loading PTE - Page Number: 16, PTE Address: 00000040, PTE Data: 95
+Extracted PTE - Physical Page Number: 31, Valid: 1
+Updated TLB - Index: 0, Physical Page Number: 31, Valid: 1
+Reading from Cache - Addr: 00000044, Tag: 0, Set: 2, Offset: 4
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 17, PTE Address: 00000044, PTE Data: 94
+Extracted PTE - Physical Page Number: 30, Valid: 1
+Updated TLB - Index: 1, Physical Page Number: 30, Valid: 1
+Reading from Cache - Addr: 00000048, Tag: 0, Set: 2, Offset: 8
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 18, PTE Address: 00000048, PTE Data: 93
+Extracted PTE - Physical Page Number: 29, Valid: 1
+Updated TLB - Index: 0, Physical Page Number: 29, Valid: 1
+Reading from Cache - Addr: 0000004C, Tag: 0, Set: 2, Offset: 12
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 19, PTE Address: 0000004C, PTE Data: 92
+Extracted PTE - Physical Page Number: 28, Valid: 1
+Updated TLB - Index: 1, Physical Page Number: 28, Valid: 1
+Reading from Cache - Addr: 00000050, Tag: 0, Set: 2, Offset: 16
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 20, PTE Address: 00000050, PTE Data: 91
+Extracted PTE - Physical Page Number: 27, Valid: 1
+Updated TLB - Index: 0, Physical Page Number: 27, Valid: 1
+Reading from Cache - Addr: 00000054, Tag: 0, Set: 2, Offset: 20
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 21, PTE Address: 00000054, PTE Data: 90
+Extracted PTE - Physical Page Number: 26, Valid: 1
+Updated TLB - Index: 1, Physical Page Number: 26, Valid: 1
+Reading from Cache - Addr: 00000058, Tag: 0, Set: 2, Offset: 24
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 22, PTE Address: 00000058, PTE Data: 89
+Extracted PTE - Physical Page Number: 25, Valid: 1
+Updated TLB - Index: 0, Physical Page Number: 25, Valid: 1
+Reading from Cache - Addr: 0000005C, Tag: 0, Set: 2, Offset: 28
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 23, PTE Address: 0000005C, PTE Data: 88
+Extracted PTE - Physical Page Number: 24, Valid: 1
+Updated TLB - Index: 1, Physical Page Number: 24, Valid: 1
+Reading from Cache - Addr: 00000068, Tag: 0, Set: 3, Offset: 8
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 1, Expected Tag: 0
+Cache Miss for Addr: 00000068
+Loading PTE - Page Number: 26, PTE Address: 00000068, PTE Data: 85
+Extracted PTE - Physical Page Number: 21, Valid: 1
+Updated TLB - Index: 0, Physical Page Number: 21, Valid: 1
+Reading from Cache - Addr: 0000006C, Tag: 0, Set: 3, Offset: 12
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 27, PTE Address: 0000006C, PTE Data: 84
+Extracted PTE - Physical Page Number: 20, Valid: 1
+Updated TLB - Index: 1, Physical Page Number: 20, Valid: 1
+Reading from Cache - Addr: 00000070, Tag: 0, Set: 3, Offset: 16
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 28, PTE Address: 00000070, PTE Data: 83
+Extracted PTE - Physical Page Number: 19, Valid: 1
+Updated TLB - Index: 0, Physical Page Number: 19, Valid: 1
+Reading from Cache - Addr: 00000074, Tag: 0, Set: 3, Offset: 20
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 29, PTE Address: 00000074, PTE Data: 82
+Extracted PTE - Physical Page Number: 18, Valid: 1
+Updated TLB - Index: 1, Physical Page Number: 18, Valid: 1
+Reading from Cache - Addr: 00000078, Tag: 0, Set: 3, Offset: 24
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 30, PTE Address: 00000078, PTE Data: 81
+Extracted PTE - Physical Page Number: 17, Valid: 1
+Updated TLB - Index: 0, Physical Page Number: 17, Valid: 1
+Reading from Cache - Addr: 0000007C, Tag: 0, Set: 3, Offset: 28
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 31, PTE Address: 0000007C, PTE Data: 80
+Extracted PTE - Physical Page Number: 16, Valid: 1
+Updated TLB - Index: 1, Physical Page Number: 16, Valid: 1
+VM Read Start - Addr: 00002000, VM Enabled: 1
+Reading from Cache - Addr: 00000020, Tag: 0, Set: 1, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 8, PTE Address: 00000020, PTE Data: 103
+Extracted PTE - Physical Page Number: 39, Valid: 1
+Updated TLB - Index: 0, Physical Page Number: 39, Valid: 1
+Reading from Cache - Addr: 00009C00, Tag: 312, Set: 0, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 312
+Entry 1 - Valid: 1, Tag: 128, Expected Tag: 312
+Cache Miss for Addr: 00009C00
+VM Read Start - Addr: 00002400, VM Enabled: 1
+Reading from Cache - Addr: 00000024, Tag: 0, Set: 1, Offset: 4
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 9, PTE Address: 00000024, PTE Data: 102
+Extracted PTE - Physical Page Number: 38, Valid: 1
+Updated TLB - Index: 1, Physical Page Number: 38, Valid: 1
+Reading from Cache - Addr: 00009800, Tag: 304, Set: 0, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 304
+Entry 1 - Valid: 1, Tag: 312, Expected Tag: 304
+Cache Miss for Addr: 00009800
+VM Read Start - Addr: 00002800, VM Enabled: 1
+Reading from Cache - Addr: 00000028, Tag: 0, Set: 1, Offset: 8
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 10, PTE Address: 00000028, PTE Data: 101
+Extracted PTE - Physical Page Number: 37, Valid: 1
+Updated TLB - Index: 0, Physical Page Number: 37, Valid: 1
+Reading from Cache - Addr: 00009400, Tag: 296, Set: 0, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 296
+Entry 1 - Valid: 1, Tag: 304, Expected Tag: 296
+Cache Miss for Addr: 00009400
+VM Read Start - Addr: 00002C00, VM Enabled: 1
+Reading from Cache - Addr: 0000002C, Tag: 0, Set: 1, Offset: 12
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 11, PTE Address: 0000002C, PTE Data: 100
+Extracted PTE - Physical Page Number: 36, Valid: 1
+Updated TLB - Index: 1, Physical Page Number: 36, Valid: 1
+Reading from Cache - Addr: 00009000, Tag: 288, Set: 0, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 288
+Entry 1 - Valid: 1, Tag: 296, Expected Tag: 288
+Cache Miss for Addr: 00009000
+VM Read Start - Addr: 00003000, VM Enabled: 1
+Reading from Cache - Addr: 00000030, Tag: 0, Set: 1, Offset: 16
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 12, PTE Address: 00000030, PTE Data: 99
+Extracted PTE - Physical Page Number: 35, Valid: 1
+Updated TLB - Index: 0, Physical Page Number: 35, Valid: 1
+Reading from Cache - Addr: 00008C00, Tag: 280, Set: 0, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 280
+Entry 1 - Valid: 1, Tag: 288, Expected Tag: 280
+Cache Miss for Addr: 00008C00
+VM Read Start - Addr: 00003400, VM Enabled: 1
+Reading from Cache - Addr: 00000034, Tag: 0, Set: 1, Offset: 20
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 13, PTE Address: 00000034, PTE Data: 98
+Extracted PTE - Physical Page Number: 34, Valid: 1
+Updated TLB - Index: 1, Physical Page Number: 34, Valid: 1
+Reading from Cache - Addr: 00008800, Tag: 272, Set: 0, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 272
+Entry 1 - Valid: 1, Tag: 280, Expected Tag: 272
+Cache Miss for Addr: 00008800
+VM Read Start - Addr: 00003800, VM Enabled: 1
+Reading from Cache - Addr: 00000038, Tag: 0, Set: 1, Offset: 24
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 14, PTE Address: 00000038, PTE Data: 97
+Extracted PTE - Physical Page Number: 33, Valid: 1
+Updated TLB - Index: 0, Physical Page Number: 33, Valid: 1
+Reading from Cache - Addr: 00008400, Tag: 264, Set: 0, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 264
+Entry 1 - Valid: 1, Tag: 272, Expected Tag: 264
+Cache Miss for Addr: 00008400
+VM Read Start - Addr: 00003C00, VM Enabled: 1
+Reading from Cache - Addr: 0000003C, Tag: 0, Set: 1, Offset: 28
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 15, PTE Address: 0000003C, PTE Data: 96
+Extracted PTE - Physical Page Number: 32, Valid: 1
+Updated TLB - Index: 1, Physical Page Number: 32, Valid: 1
+Reading from Cache - Addr: 00008000, Tag: 256, Set: 0, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 256
+Entry 1 - Valid: 1, Tag: 264, Expected Tag: 256
+Cache Miss for Addr: 00008000
+VM Read Start - Addr: 00004000, VM Enabled: 1
+Reading from Cache - Addr: 00000040, Tag: 0, Set: 2, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 16, PTE Address: 00000040, PTE Data: 95
+Extracted PTE - Physical Page Number: 31, Valid: 1
+Updated TLB - Index: 0, Physical Page Number: 31, Valid: 1
+Reading from Cache - Addr: 00007C00, Tag: 248, Set: 0, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 248
+Entry 1 - Valid: 1, Tag: 256, Expected Tag: 248
+Cache Miss for Addr: 00007C00
+VM Read Start - Addr: 00004400, VM Enabled: 1
+Reading from Cache - Addr: 00000044, Tag: 0, Set: 2, Offset: 4
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 17, PTE Address: 00000044, PTE Data: 94
+Extracted PTE - Physical Page Number: 30, Valid: 1
+Updated TLB - Index: 1, Physical Page Number: 30, Valid: 1
+Reading from Cache - Addr: 00007800, Tag: 240, Set: 0, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 240
+Entry 1 - Valid: 1, Tag: 248, Expected Tag: 240
+Cache Miss for Addr: 00007800
+VM Read Start - Addr: 00004800, VM Enabled: 1
+Reading from Cache - Addr: 00000048, Tag: 0, Set: 2, Offset: 8
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 18, PTE Address: 00000048, PTE Data: 93
+Extracted PTE - Physical Page Number: 29, Valid: 1
+Updated TLB - Index: 0, Physical Page Number: 29, Valid: 1
+Reading from Cache - Addr: 00007400, Tag: 232, Set: 0, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 232
+Entry 1 - Valid: 1, Tag: 240, Expected Tag: 232
+Cache Miss for Addr: 00007400
+VM Read Start - Addr: 00004C00, VM Enabled: 1
+Reading from Cache - Addr: 0000004C, Tag: 0, Set: 2, Offset: 12
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 19, PTE Address: 0000004C, PTE Data: 92
+Extracted PTE - Physical Page Number: 28, Valid: 1
+Updated TLB - Index: 1, Physical Page Number: 28, Valid: 1
+Reading from Cache - Addr: 00007000, Tag: 224, Set: 0, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 224
+Entry 1 - Valid: 1, Tag: 232, Expected Tag: 224
+Cache Miss for Addr: 00007000
+VM Read Start - Addr: 00005000, VM Enabled: 1
+Reading from Cache - Addr: 00000050, Tag: 0, Set: 2, Offset: 16
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 20, PTE Address: 00000050, PTE Data: 91
+Extracted PTE - Physical Page Number: 27, Valid: 1
+Updated TLB - Index: 0, Physical Page Number: 27, Valid: 1
+Reading from Cache - Addr: 00006C00, Tag: 216, Set: 0, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 216
+Entry 1 - Valid: 1, Tag: 224, Expected Tag: 216
+Cache Miss for Addr: 00006C00
+VM Read Start - Addr: 00005400, VM Enabled: 1
+Reading from Cache - Addr: 00000054, Tag: 0, Set: 2, Offset: 20
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 21, PTE Address: 00000054, PTE Data: 90
+Extracted PTE - Physical Page Number: 26, Valid: 1
+Updated TLB - Index: 1, Physical Page Number: 26, Valid: 1
+Reading from Cache - Addr: 00006800, Tag: 208, Set: 0, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 208
+Entry 1 - Valid: 1, Tag: 216, Expected Tag: 208
+Cache Miss for Addr: 00006800
+VM Read Start - Addr: 00005800, VM Enabled: 1
+Reading from Cache - Addr: 00000058, Tag: 0, Set: 2, Offset: 24
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 22, PTE Address: 00000058, PTE Data: 89
+Extracted PTE - Physical Page Number: 25, Valid: 1
+Updated TLB - Index: 0, Physical Page Number: 25, Valid: 1
+Reading from Cache - Addr: 00006400, Tag: 200, Set: 0, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 200
+Entry 1 - Valid: 1, Tag: 208, Expected Tag: 200
+Cache Miss for Addr: 00006400
+ERROR: bad value @ 00005800 (22528)  value: 25600  expected: 22528
+VM Read Start - Addr: 00005C00, VM Enabled: 1
+Reading from Cache - Addr: 0000005C, Tag: 0, Set: 2, Offset: 28
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 23, PTE Address: 0000005C, PTE Data: 88
+Extracted PTE - Physical Page Number: 24, Valid: 1
+Updated TLB - Index: 1, Physical Page Number: 24, Valid: 1
+Reading from Cache - Addr: 00006000, Tag: 192, Set: 0, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 192
+Entry 1 - Valid: 1, Tag: 200, Expected Tag: 192
+Cache Miss for Addr: 00006000
+ERROR: bad value @ 00005c00 (23552)  value: 24576  expected: 23552
+VM Read Start - Addr: 00006000, VM Enabled: 1
+Reading from Cache - Addr: 00006000, Tag: 192, Set: 0, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 192
+Entry 1 - Valid: 1, Tag: 192, Expected Tag: 192
+Cache Hit at Entry 1
+VM Read Start - Addr: 00006400, VM Enabled: 1
+Reading from Cache - Addr: 00006400, Tag: 200, Set: 0, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 200
+Entry 1 - Valid: 1, Tag: 192, Expected Tag: 200
+Cache Miss for Addr: 00006400
+VM Read Start - Addr: 00006800, VM Enabled: 1
+Reading from Cache - Addr: 00000068, Tag: 0, Set: 3, Offset: 8
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 26, PTE Address: 00000068, PTE Data: 85
+Extracted PTE - Physical Page Number: 21, Valid: 1
+Updated TLB - Index: 0, Physical Page Number: 21, Valid: 1
+Reading from Cache - Addr: 00005400, Tag: 168, Set: 0, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 168
+Entry 1 - Valid: 1, Tag: 200, Expected Tag: 168
+Cache Miss for Addr: 00005400
+VM Read Start - Addr: 00006C00, VM Enabled: 1
+Reading from Cache - Addr: 0000006C, Tag: 0, Set: 3, Offset: 12
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 27, PTE Address: 0000006C, PTE Data: 84
+Extracted PTE - Physical Page Number: 20, Valid: 1
+Updated TLB - Index: 1, Physical Page Number: 20, Valid: 1
+Reading from Cache - Addr: 00005000, Tag: 160, Set: 0, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 160
+Entry 1 - Valid: 1, Tag: 168, Expected Tag: 160
+Cache Miss for Addr: 00005000
+VM Read Start - Addr: 00007000, VM Enabled: 1
+Reading from Cache - Addr: 00000070, Tag: 0, Set: 3, Offset: 16
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 28, PTE Address: 00000070, PTE Data: 83
+Extracted PTE - Physical Page Number: 19, Valid: 1
+Updated TLB - Index: 0, Physical Page Number: 19, Valid: 1
+Reading from Cache - Addr: 00004C00, Tag: 152, Set: 0, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 152
+Entry 1 - Valid: 1, Tag: 160, Expected Tag: 152
+Cache Miss for Addr: 00004C00
+VM Read Start - Addr: 00007400, VM Enabled: 1
+Reading from Cache - Addr: 00000074, Tag: 0, Set: 3, Offset: 20
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 29, PTE Address: 00000074, PTE Data: 82
+Extracted PTE - Physical Page Number: 18, Valid: 1
+Updated TLB - Index: 1, Physical Page Number: 18, Valid: 1
+Reading from Cache - Addr: 00004800, Tag: 144, Set: 0, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 144
+Entry 1 - Valid: 1, Tag: 152, Expected Tag: 144
+Cache Miss for Addr: 00004800
+VM Read Start - Addr: 00007800, VM Enabled: 1
+Reading from Cache - Addr: 00000078, Tag: 0, Set: 3, Offset: 24
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 30, PTE Address: 00000078, PTE Data: 81
+Extracted PTE - Physical Page Number: 17, Valid: 1
+Updated TLB - Index: 0, Physical Page Number: 17, Valid: 1
+Reading from Cache - Addr: 00004400, Tag: 136, Set: 0, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 136
+Entry 1 - Valid: 1, Tag: 144, Expected Tag: 136
+Cache Miss for Addr: 00004400
+VM Read Start - Addr: 00007C00, VM Enabled: 1
+Reading from Cache - Addr: 0000007C, Tag: 0, Set: 3, Offset: 28
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 31, PTE Address: 0000007C, PTE Data: 80
+Extracted PTE - Physical Page Number: 16, Valid: 1
+Updated TLB - Index: 1, Physical Page Number: 16, Valid: 1
+Reading from Cache - Addr: 00004000, Tag: 128, Set: 0, Offset: 0
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 128
+Entry 1 - Valid: 1, Tag: 136, Expected Tag: 128
+Cache Miss for Addr: 00004000
+Reading from Cache - Addr: 00000028, Tag: 0, Set: 1, Offset: 8
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 10, PTE Address: 00000028, PTE Data: 101
+Extracted PTE - Physical Page Number: 37, Valid: 1
+Updated TLB - Index: 0, Physical Page Number: 37, Valid: 1
+VM Read Start - Addr: 000028A4, VM Enabled: 1
+Reading from Cache - Addr: 00000028, Tag: 0, Set: 1, Offset: 8
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 297, Expected Tag: 0
+Cache Miss for Addr: 00000028
+Loading PTE - Page Number: 10, PTE Address: 00000028, PTE Data: 101
+Extracted PTE - Physical Page Number: 37, Valid: 1
+Updated TLB - Index: 1, Physical Page Number: 37, Valid: 1
+Reading from Cache - Addr: 000094A4, Tag: 297, Set: 1, Offset: 4
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 297
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 297
+Cache Miss for Addr: 000094A4
+Reading from Cache - Addr: 00000050, Tag: 0, Set: 2, Offset: 16
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 20, PTE Address: 00000050, PTE Data: 91
+Extracted PTE - Physical Page Number: 27, Valid: 1
+Updated TLB - Index: 0, Physical Page Number: 27, Valid: 1
+VM Read Start - Addr: 000050B4, VM Enabled: 1
+Reading from Cache - Addr: 00000050, Tag: 0, Set: 2, Offset: 16
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 20, PTE Address: 00000050, PTE Data: 91
+Extracted PTE - Physical Page Number: 27, Valid: 1
+Updated TLB - Index: 1, Physical Page Number: 27, Valid: 1
+Reading from Cache - Addr: 00006CB4, Tag: 217, Set: 1, Offset: 20
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 217
+Entry 1 - Valid: 1, Tag: 217, Expected Tag: 217
+Cache Hit at Entry 1
+Reading from Cache - Addr: 00000078, Tag: 0, Set: 3, Offset: 24
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 30, PTE Address: 00000078, PTE Data: 81
+Extracted PTE - Physical Page Number: 17, Valid: 1
+Updated TLB - Index: 0, Physical Page Number: 17, Valid: 1
+VM Read Start - Addr: 000078C4, VM Enabled: 1
+Reading from Cache - Addr: 00000078, Tag: 0, Set: 3, Offset: 24
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 30, PTE Address: 00000078, PTE Data: 81
+Extracted PTE - Physical Page Number: 17, Valid: 1
+Updated TLB - Index: 1, Physical Page Number: 17, Valid: 1
+Reading from Cache - Addr: 000044C4, Tag: 137, Set: 2, Offset: 4
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 137
+Entry 1 - Valid: 1, Tag: 137, Expected Tag: 137
+Cache Hit at Entry 1
+Reading from Cache - Addr: 00000050, Tag: 0, Set: 2, Offset: 16
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 137, Expected Tag: 0
+Cache Miss for Addr: 00000050
+Loading PTE - Page Number: 20, PTE Address: 00000050, PTE Data: 91
+Extracted PTE - Physical Page Number: 27, Valid: 1
+Updated TLB - Index: 0, Physical Page Number: 27, Valid: 1
+VM Read Start - Addr: 000050B4, VM Enabled: 1
+Reading from Cache - Addr: 00000050, Tag: 0, Set: 2, Offset: 16
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 0
+Cache Hit at Entry 1
+Loading PTE - Page Number: 20, PTE Address: 00000050, PTE Data: 91
+Extracted PTE - Physical Page Number: 27, Valid: 1
+Updated TLB - Index: 1, Physical Page Number: 27, Valid: 1
+Reading from Cache - Addr: 00006CB4, Tag: 217, Set: 1, Offset: 20
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 217
+Entry 1 - Valid: 1, Tag: 217, Expected Tag: 217
+Cache Hit at Entry 1
+Reading from Cache - Addr: 00000028, Tag: 0, Set: 1, Offset: 8
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 217, Expected Tag: 0
+Cache Miss for Addr: 00000028
+Loading PTE - Page Number: 10, PTE Address: 00000028, PTE Data: 101
+Extracted PTE - Physical Page Number: 37, Valid: 1
+Updated TLB - Index: 0, Physical Page Number: 37, Valid: 1
+VM Read Start - Addr: 000028A4, VM Enabled: 1
+Reading from Cache - Addr: 00000028, Tag: 0, Set: 1, Offset: 8
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 0
+Entry 1 - Valid: 1, Tag: 297, Expected Tag: 0
+Cache Miss for Addr: 00000028
+Loading PTE - Page Number: 10, PTE Address: 00000028, PTE Data: 101
+Extracted PTE - Physical Page Number: 37, Valid: 1
+Updated TLB - Index: 1, Physical Page Number: 37, Valid: 1
+Reading from Cache - Addr: 000094A4, Tag: 297, Set: 1, Offset: 4
+Entry 0 - Valid: 0, Tag: 0, Expected Tag: 297
+Entry 1 - Valid: 1, Tag: 0, Expected Tag: 297
+Cache Miss for Addr: 000094A4
+done

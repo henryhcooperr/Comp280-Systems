@@ -91,6 +91,7 @@ void tlbTest()
 
 int main(int argc, char**argv)
 {
+   
     initCache();
     clearPerformanceCounters("memory_trace_3_main.txt");
     perfNote("Setting up page table\n");
@@ -103,6 +104,9 @@ int main(int argc, char**argv)
     getPerformanceCounters(&pc);
     printPerformanceInfo(&pc);
 
+    printf("Size of Page Table Entry: %lu bytes\n", sizeof(struct PageTableEntry));
+    printf("Physical Page Number Mask: 0x%X\n", 0x3F);
+    printf("Valid Bit Mask and Shift: Extracted with (value >> 6) & 1\n");
 
     printf("done\n");
 }

@@ -1,6 +1,7 @@
 #include "DRAM_Cache.h"
 #include "Performance.h"
 #include <string.h>
+#include <stdio.h>
 // Define cache constants
 #define CACHE_SETS 4
 #define CACHE_ENTRIES_PER_SET 2
@@ -36,17 +37,22 @@ void initCache() {
 int readWithCache(Address addr) {
     int tag = addr >> (CACHE_SET_BITS + CACHE_OFFSET_BITS);
     int set = (addr >> CACHE_OFFSET_BITS) & 0x3;
-
     int offset = addr & 0x1F;
+
+    printf("Reading from Cache - Addr: %08X, Tag: %d, Set: %d, Offset: %d\n", addr, tag, set, offset);
+
     for (int entry = 0; entry < CACHE_ENTRIES_PER_SET; entry++) {
+        printf("Entry %d - Valid: %d, Tag: %d, Expected Tag: %d\n", entry, cache[set][entry].valid, cache[set][entry].tag, tag);
         if (cache[set][entry].valid && cache[set][entry].tag == tag) {
-            // Cache hit
+            printf("Cache Hit at Entry %d\n", entry);
+
             perfCacheHit(addr, set, entry);
             cache[set][entry].lru = 1;
             cache[set][1 - entry].lru = 0;
             return *((int *)&cache[set][entry].data[offset]);
     }
 }
+    printf("Cache Miss for Addr: %08X\n", addr);
 
 // Cache miss
     int victimEntry = cache[set][0].lru ? 0 : 1;

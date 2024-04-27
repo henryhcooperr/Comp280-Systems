@@ -19,6 +19,8 @@ int lookupTLB(int pageNumber);
 int loadPageTableEntry(int pageNumber);
 
 int vmRead(Address addr) {
+    printf("VM Read Start - Addr: %08X, VM Enabled: %d\n", addr, vmEnabled);
+
     if (!vmEnabled) {
         return readWithCache(addr);
     }
@@ -96,20 +98,27 @@ int lookupTLB(int pageNumber) {
         }
     }
     perfTlbMiss(pageNumber);
+    printf("miss");
     return -1;
+
 }
 
 int loadPageTableEntry(int pageNumber) {
     Address pteAddress = pageTableAddress + pageNumber * BYTES_PER_PTE;
     struct PageTableEntry pte;
     int pteData = readWithCache(pteAddress);
+    printf("Loading PTE - Page Number: %d, PTE Address: %08X, PTE Data: %d\n", pageNumber, pteAddress, pteData);
 
     pte.physicalPageNumber = pteData & 0x3F;
     pte.valid = (pteData >> 6) & 1;
+    
+    printf("Extracted PTE - Physical Page Number: %d, Valid: %d\n", pte.physicalPageNumber, pte.valid);
 
     int tlbIndex = tlbRoundRobin;
     tlb[tlbIndex] = pte;
     tlbRoundRobin = (tlbRoundRobin + 1) % TLB_SIZE;
+
+    printf("Updated TLB - Index: %d, Physical Page Number: %d, Valid: %d\n", tlbIndex, tlb[tlbIndex].physicalPageNumber, tlb[tlbIndex].valid);
 
     return tlbIndex;
 }

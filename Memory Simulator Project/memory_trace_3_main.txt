@@ -768,7 +768,7 @@ read addr: 000028a4
 	dram cache read addr: 000094a0  value: 00000000 a4280000 00000000 00000000 00000000 00000000 00000000 00000000
 	done addr: 000028a4 value: 10404
 flush
-Run by henrycooper at Sat Apr 27 15:26:50 2024
+Run by henrycooper at Sat Apr 27 16:05:23 2024
 Performance
 cost: 3672
 DRAM reads: 0
